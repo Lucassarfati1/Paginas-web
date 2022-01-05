@@ -1,0 +1,47 @@
+*{
+	font-family: Zen Antique;
+	font-weight: 100;
+}
+.nav{
+	background-color: rgb(27,208,252);
+	display: flex;
+	margin: 5px;
+	height: 65px;
+	justify-content: right;
+	
+
+}
+.itemsnav{
+	display: inline-flex;
+	padding: 5px;
+	margin: 5px;
+
+}
+.nav i{
+	box-sizing: border-box;
+	margin-right: 5px;
+	text-align: right;
+
+}
+.itemsnav:hover {
+	color: rgb(146,189,200);
+}
+.containerbackground{
+	display: flex;
+	flex-direction: column;
+	background-image: url('https://4.bp.blogspot.com/-jDcqEFr898k/XBAeeuO_B3I/AAAAAAAAAEM/ugCkZsDFoN8_HGj34Mcs6O61GvNDzcKaACLcBGAs/s1600/phpCode.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border:10px solid transparent;
+	background-origin: border-box;
+	height: 85vh;
+	opacity: 0.4;
+	
+}
+.titulo{
+	font-weight: 700;
+	background: rgba(0,0,0,1);
+}
+.texto{
+	
+}
